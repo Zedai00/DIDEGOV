@@ -1,0 +1,47 @@
+$avatar-bg: #ff6f61; // vibrant coral
+$bg-light: #fff8f2; // soft warm background
+$border-color: #ffd6c4; // light peach border
+$icon-bg: #ffe7d9; // soft icon background
+$icon-color: #ff4b3e; // bright red icons
+$divider-color: #ffd9cc; // subtle divider
+$error-bg: #ffe5e5; // soft error background
+$error-color: #ff0000; // bold red
+$primary-bg: #e0f7ff; // lively cyan
+$primary-color: #00bfff; // vibrant blue
+$success-bg: #e6ffed; // light green background
+$selected-bg: #e6ffed; // selection highlight
+$success-color: #00c853; // bright green
+$success-light-color: #b9f6ca; // soft green
+$tag-bg: #fff0f5; // light pink tags
+$tag-bg-success: #e0f2f1; // light teal tags
+$tag-color: #333333; // dark text for contrast
+$text-color: #1a1a1a; // main text
+$text-color-secondary: #555555; // secondary text
+$text-color-warning: #ff6f00; // warning orange
+$primary-color-light: #66d9ff; // light cyan
+$primary-color-dark: #0080c0; // deep blue
+
+:export {
+  avatarBg: $avatar-bg;
+  bgLight: $bg-light;
+  borderColor: $border-color;
+  iconBg: $icon-bg;
+  iconColor: $icon-color;
+  dividerColor: $divider-color;
+  errorBg: $error-bg;
+  errorColor: $error-color;
+  primaryBg: $primary-bg;
+  primaryColor: $primary-color;
+  primaryColorLight: $primary-color-light;
+  successBg: $success-bg;
+  selectedBg: $selected-bg;
+  successColor: $success-color;
+  successLightColor: $success-light-color;
+  tagBg: $tag-bg;
+  tagBgSuccess: $tag-bg-success;
+  tagColor: $tag-color;
+  textColor: $text-color;
+  textColorSecondary: $text-color-secondary;
+  textColorWarning: $text-color-warning;
+  primaryColorDark: $primary-color-dark;
+}
